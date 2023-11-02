@@ -1,0 +1,67 @@
+/* Style the navigation menu */
+.topnav{
+	overflow: hidden;
+	background-color: #abc0de;
+	position: fixed; /* Set the topnav to fixed position */
+	top: 2; /* Position the topnav at the top of the page */
+	width: 100%; /* Full width */
+}
+
+/* Hide the links inside the navigation menu (except for home/home) */
+.topnav #myLinks {
+	display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+	color: floralwhite;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+	background: #4f7bb9;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+	background-color: #grey;
+	color: #426c94;
+}
+
+
+
+/* Style the active link (or home/Lisa Tomiyama) */
+.active {
+	text-align: center;
+	background-color: #91acd3;
+	color: flowwhite;
+}
+
+
+
+body{
+	background-color: #;
+	color: floralwhite;
+}
+
+section{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	z-index: 0;
+}
+
+section h2{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	text-transform: capitalize;
+}
